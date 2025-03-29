@@ -6,6 +6,7 @@ import Cards from "./Cards";
 import data from "../assets/Categrioes.json";
 import sc from "../assets/SubCategrioes.json";
 import Card from "./Card";
+import Footer from "./Footer";
 
 const Navbar = () => {
   const [loginFlag, setLoginFlag] = useState(false);
@@ -113,6 +114,9 @@ const Navbar = () => {
       </div>
       <div className=" text-red-900">
         {cartFlag && <Cart cartFlag={setCartFlag} />}
+      </div>
+      <div>
+        <Footer/>
       </div>
     </>
   );
