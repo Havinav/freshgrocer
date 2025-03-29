@@ -1,0 +1,302 @@
+[
+	{
+		"sub_category_id" : 1,
+		"category" : "Milk",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/922_1643384380004.png"
+	},
+	{
+		"sub_category_id" : 2,
+		"category" : "Bread & Pav",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/953_1657599742631.png"
+	},
+	{
+		"sub_category_id" : 3,
+		"category" : "Egg",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1200_1657599895699.png"
+	},
+	{
+		"sub_category_id" : 4,
+		"category" : "Curd & Yogurt",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/123_1643384414434.png"
+	},
+	{
+		"sub_category_id" : 5,
+		"category" : "Batter",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1425_1643613254262.png"
+	},
+	{
+		"sub_category_id" : 6,
+		"category" : "Honey & Chyawanprash",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/609_1695366756108.png"
+	},
+	{
+		"sub_category_id" : 7,
+		"category" : "Lessi, Shakes & More",
+		"category_id" : 1,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1184_1661407202472.png"
+	},
+	{
+		"sub_category_id" : 8,
+		"category" : "Soft Drinks",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1102_1649432926740.png"
+	},
+	{
+		"sub_category_id" : 9,
+		"category" : "Fruit Jucies",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/955_1643385414974.png"
+	},
+	{
+		"sub_category_id" : 10,
+		"category" : "Mongo Jucies",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1108_1684311412858.png"
+	},
+	{
+		"sub_category_id" : 11,
+		"category" : "Energy Drinks",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/91_1684226377332.png"
+	},
+	{
+		"sub_category_id" : 12,
+		"category" : "Cocount Water",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1594_1680180957343.png"
+	},
+	{
+		"sub_category_id" : 13,
+		"category" : "Water & Ice Cubes",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/270_1643385402833.png"
+	},
+	{
+		"sub_category_id" : 14,
+		"category" : "Cold Coffee & Ice Tea",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1953_1669020339170.png"
+	},
+	{
+		"sub_category_id" : 15,
+		"category" : "Soda & Mixers",
+		"category_id" : 5,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1599_1643385438589.png"
+	},
+	{
+		"sub_category_id" : 16,
+		"category" : "Chips & Crisps",
+		"category_id" : 6,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/940_1643445382163.png"
+	},
+	{
+		"sub_category_id" : 17,
+		"category" : "Rusks & Wafers",
+		"category_id" : 6,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/107_1643445091063.png"
+	},
+	{
+		"sub_category_id" : 18,
+		"category" : "Energy Bars",
+		"category_id" : 6,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/rc-upload-1700735371138-2"
+	},
+	{
+		"sub_category_id" : 19,
+		"category" : "Bhujia & Mixtures",
+		"category_id" : 6,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1178_1643445391732.png"
+	},
+	{
+		"sub_category_id" : 20,
+		"category" : "Popcorn",
+		"category_id" : 6,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/156_1643445347481.png"
+	},
+	{
+		"sub_category_id" : 21,
+		"category" : "Papad & Fryums",
+		"category_id" : 6,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/80_1643446014772.png"
+	},
+	{
+		"sub_category_id" : 22,
+		"category" : "Noodles",
+		"category_id" : 7,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/962_1643384795557.png"
+	},
+	{
+		"sub_category_id" : 23,
+		"category" : "Frozen Veg Snacks",
+		"category_id" : 7,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1413_1643385202902.png"
+	},
+	{
+		"sub_category_id" : 24,
+		"category" : "Frozen Non-Veg Snacks",
+		"category_id" : 7,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1412_1643385216342.png"
+	},
+	{
+		"sub_category_id" : 25,
+		"category" : "Pasta",
+		"category_id" : 7,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/968_1669884568341.png"
+	},
+	{
+		"sub_category_id" : 26,
+		"category" : "Soup",
+		"category_id" : 7,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/964_1656662125900.png"
+	},
+	{
+		"sub_category_id" : 27,
+		"category" : "Batter",
+		"category_id" : 7,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1425_1643613254262.png"
+	},
+	{
+		"sub_category_id" : 28,
+		"category" : "Indian Sweets",
+		"category_id" : 8,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/943_1643444719353.png"
+	},
+	{
+		"sub_category_id" : 29,
+		"category" : "Chocolate Gift Pack",
+		"category_id" : 8,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/2379_1696572513174.png"
+	},
+	{
+		"sub_category_id" : 30,
+		"category" : "Ice Cream",
+		"category_id" : 8,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/183_1643444706263.png"
+	},
+	{
+		"sub_category_id" : 31,
+		"category" : "Candies & Gum",
+		"category_id" : 8,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1930_1643444770081.png"
+	},
+	{
+		"sub_category_id" : 32,
+		"category" : "Syrups",
+		"category_id" : 8,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1289_1643444757757.png"
+	},
+	{
+		"sub_category_id" : 33,
+		"category" : "Cakes & Rolls",
+		"category_id" : 8,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/108_1669984636578.png"
+	},
+	{
+		"sub_category_id" : 34,
+		"category" : "Tea",
+		"category_id" : 9,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/957_1643445598079.png"
+	},
+	{
+		"sub_category_id" : 35,
+		"category" : "Coffee",
+		"category_id" : 9,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1322_1643445664338.png"
+	},
+	{
+		"sub_category_id" : 36,
+		"category" : "Milk Drinks",
+		"category_id" : 9,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/960_1689245796579.png"
+	},
+	{
+		"sub_category_id" : 37,
+		"category" : "Green & Flavoured Tea",
+		"category_id" : 9,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1605_1665749364430.png"
+	},
+	{
+		"sub_category_id" : 38,
+		"category" : "Herbal Drinks",
+		"category_id" : 9,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1109_1643445639946.png"
+	},
+	{
+		"sub_category_id" : 39,
+		"category" : "Cold Coffee & Ice Tea",
+		"category_id" : 9,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1953_1669020339170.png"
+	},
+	{
+		"sub_category_id" : 40,
+		"category" : "Atta",
+		"category_id" : 10,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1165_1643445834987.png"
+	},
+	{
+		"sub_category_id" : 41,
+		"category" : "Rice",
+		"category_id" : 10,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1161_1643445823265.png"
+	},
+	{
+		"sub_category_id" : 42,
+		"category" : "Toor, Urad & Chana ",
+		"category_id" : 10,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1010_1643445810109.png"
+	},
+	{
+		"sub_category_id" : 43,
+		"category" : "Besan, Sooji & Maida",
+		"category_id" : 10,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1166_1643445847780.png"
+	},
+	{
+		"sub_category_id" : 44,
+		"category" : "Poha, Daliya ",
+		"category_id" : 10,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1295_1643445863467.png"
+	},
+	{
+		"subCategoryId": 50,
+		"category": "Moong & Masoor",
+		"image": "https://cdn.grofers.com/app/images/category/cms_images/icon/505_1680264256295.png",
+		"category_Id": 10
+	},
+	{
+		"sub_category_id" : 45,
+		"category" : "Diapers",
+		"category_id" : 12,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1000_1685686698390.png"
+	},
+	{
+		"sub_category_id" : 46,
+		"category" : "Bathing Needs",
+		"category_id" : 12,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1001_1643447265532.png"
+	},
+	{
+		"sub_category_id" : 47,
+		"category" : "Baby Wipes",
+		"category_id" : 12,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/996_1676379098477.png"
+	},
+	{
+		"sub_category_id" : 48,
+		"category" : "Baby Food",
+		"category_id" : 12,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1590_1643447293757.png"
+	},
+	{
+		"sub_category_id" : 49,
+		"category" : "Skin & Hair Care",
+		"category_id" : 12,
+		"image" : "https://cdn.grofers.com/app/images/category/cms_images/icon/1002_1643447281696.png"
+	}
+]
