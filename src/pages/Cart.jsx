@@ -1,19 +1,20 @@
 import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
-import { IoClose } from "react-icons/io5";
+
 
 const Cart = ({ cartFlag }) => {
   return (
-    <div className=" bg-black/50 flex h-screen bg-white w-1/4 fixed right-0 top-0">
+    <div className=" flex h-full bg-white md:w-1/4 w-1/2 fixed right-0 top-0 ">
+      <div className="flex  py-5 gap-7 shadow=lg">
       <span
           onClick={() => cartFlag(false)}
-          className="text-red-500 cursor-pointer mt-2 ml-2 text-2xl"
+          className="text-red-500 cursor-pointer mt-1 text-2xl"
         >
-          <IoClose />
+          <FaArrowLeft />
         </span>
-      <div className="flex mt-5 p-2 bg-transparent justify-center">
-        <span className="text-2xl font-bold text-green-800 ml-10">My Cart</span>
+        <span className="text-green-900 font-bold text-center mt-1">My Cart</span><hr/>
       </div>
+      
     </div>
   );
 };

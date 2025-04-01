@@ -175,9 +175,11 @@ const Footer = () => {
               </a>
              
             </div>
-            <span className="text-red-700">Gopal Pandilla</span>
+          <div className="space-x-6">
+          <span className="text-red-700">Gopal</span>
             <span className="text-red-700">GOPAL.TECH22@GMAIL.COM</span>
             <span className="text-red-700">+91 9493384380</span>
+          </div>
           </div>
         </div>
       </footer>

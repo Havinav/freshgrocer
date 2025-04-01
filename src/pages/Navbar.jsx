@@ -13,35 +13,81 @@ const Navbar = () => {
   const [cartFlag, setCartFlag] = useState(false);
   return (
     <>
-      <div className="flex fixed top-0 w-full bg-white text-black shadow-lg p-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <div>
-            <span className="text-xl font-bold text-orange-500">Fresh</span>
-            <span className="text-xl font-bold text-green-500">Grocer</span>
-          </div>
-          <div className="">
-            <input
-              type="text"
-              placeholder="Search for products"
-              className="border h-9 w-100 rounded-lg border-red-300 px-5"
+      <nav class="fixed top-0 w-full bg-white border-gray-200 dark:bg-gray-900 shadow-lg rounded-lg">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+          <a
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYfJTGjEEGIqJ1GYvKkiNgaq7m2n_nUQsqEg&s"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYfJTGjEEGIqJ1GYvKkiNgaq7m2n_nUQsqEg&s"
+              class="h-8 shadow-lg rounded-lg"
+              alt="Flowbite Logo"
             />
-          </div>
-
-          <div>
-            <span
-              onClick={() => setLoginFlag(!loginFlag)}
-              className="text-red-500 cursor-pointer"
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span class="text-blue-700 dark:text-blue-500">Fresh</span>
+              <span class="text-red-500 dark:text-white">Cart</span>
+            </span>
+          </a>
+          <div class="flex items-center text-xmlns font-semibold space-x-6 rtl:space-x-reverse">
+            <a
+              href="#"
+              class="text-blue-600 dark:text-blue-500 hover:underline"
+            >
+              Search
+            </a>
+            <a
+              href="#"
+              class="text-blue-600 dark:text-blue-500 hover:underline" onClick={()=>setLoginFlag(!loginFlag)}
             >
               Login
-            </span>
-            &emsp;&emsp;&emsp;&emsp;
-            <span onClick={() => setCartFlag(!cartFlag)}>
-              <button className="bg-green-900 text-white px-4 py-2 rounded-lg cursor-pointer">
-                My Cart 1
+            </a>
+            <a
+              href="#"
+              class="text-blue-600 dark:text-blue-500 hover:underline shadow-lg " onClick={()=>setCartFlag(!cartFlag)}
+            >
+              <button
+                type="button"
+                class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Cart
+                <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
+                  0
+                </div>
               </button>
-            </span>
+            </a>
           </div>
         </div>
+      </nav>
+      <div className="mt-20 px-4">
+        <DashboardJumbtron />
+      </div><br/>
+      <div className="flex grid px-4">
+         <Cards/>
+      </div><br/>
+      <div className="flex grid px-4">
+      <span className="text-2xl font-bold text-black">Categories</span>
+       <div className="grid jestify-center items-center grid-cols-2 md:grid-cols-5 gap-4">
+       {data.map((item) => {
+              return (
+                <div className="">
+        <div class="">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src={item.image}
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+              );
+            })}
+       </div>
+      </div>
+      <br/>
+      <div>
+        <Footer/>
       </div>
       <div className="">
         {loginFlag && (
@@ -50,73 +96,8 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className="mt-20 p-1 rounded-lg">
-        <div>
-          <DashboardJumbtron />
-        </div>
-
-        <div>
-          <Cards />
-        </div>
-        <div className="p-2">
-          <span className="text-2xl font-bold text-black">Categories</span>
-          <div className="flex">
-            {data.map((item) => {
-              return (
-                <div className="  rounded-xl " key={item.id}>
-                  <div className="p-5 ">
-                    <span className="text-2xl font-bold ">{item.name}</span>
-                    <br />
-                    <span className="text-lg">{item.description}</span>
-                  </div>
-                  <div className="flex p-1 -mt-17 justify-end">
-                    <img
-                      src={item.image}
-                      alt="grocery"
-                      className="rounded-xl"
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        <div>
-          <span className="text-2xl font-bold p-2 text-black">
-            Dairy, Bread & Eggs
-          </span>
-          <Card subData={sc} value={1} />
-          <span className="text-2xl font-bold p-2 text-black">
-            Cool Drinks & Juices
-          </span>
-          <Card subData={sc} value={5} />
-          <span className="text-2xl font-bold p-2 text-black">
-            Snacks & Munchies
-          </span>
-          <Card subData={sc} value={6} />
-          <span className="text-2xl font-bold p-2 text-black">
-            Breakfast & Instant Food
-          </span>
-          <Card subData={sc} value={7} />
-          <span className="text-2xl font-bold p-2 text-black">
-            Sweet & Tooth
-          </span>
-          <Card subData={sc} value={8} />
-          <span className="text-2xl font-bold p-2 text-black">
-            Tea, Coffee & Health Drink
-          </span>
-          <Card subData={sc} value={9} />
-          <span className="text-2xl font-bold p-2 text-black">
-            Atta, Rice & Dal
-          </span>
-          <Card subData={sc} value={10} />
-        </div>
-      </div>
       <div className=" text-red-900">
         {cartFlag && <Cart cartFlag={setCartFlag} />}
-      </div>
-      <div>
-        <Footer/>
       </div>
     </>
   );
